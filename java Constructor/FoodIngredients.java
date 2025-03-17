@@ -1,22 +1,26 @@
 class FoodIngredients{
-	public static void food(String foodName){
-		foodItems name=foodItems.PIZZA;
+	public static String[] food(FoodIt fooditems){
+	
 		
-		if( foodName=="CHAPPATI"){
-			System.out.println("The ingredients for chapatti are wheat flour,water,salt");
+		if(fooditems==FoodIt.CHAPPATI){
+			String[] items1={"wheat","flour","water","salt"};
+			return items1;
+			
+			
+		}
+			else if(fooditems==FoodIt.MAGGIE){
+				String[] items2={"maggie","maggie masala"};
+				return items2;
+		    
 		}
 		
-		else if( foodName=="MAGGIE"){
-			System.out.println("The ingredients for maggie are maggie,maggie masala,water");
+		else if(fooditems==FoodIt.PIZZA){
+			String[] items3={"Dough","Tomato Sauce","Cheese","Olives","Pepperoni"};
+		return items3;
 		}
-		
-		else if( foodName=="PIZZA"){
-			System.out.println("The ingredients for pizza are Dough, Tomato Sauce, Cheese, Olives, Pepperoni");
-		}
-		else{
-			System.out.println("Choose another item");
-		}
-		
+			return null;
 	}
+	
+	
 		
 	}

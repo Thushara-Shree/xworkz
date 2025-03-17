@@ -1,4 +1,4 @@
-enum FoodItems{
+enum FoodIt{
 	CHAPPATI,
 	MAGGIE,
 	PIZZA
