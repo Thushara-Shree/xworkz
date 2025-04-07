@@ -1,9 +1,0 @@
-package com.xworkz.internal;
-
-public class Soap extends BodyWash{
-
-    public Soap() {
-        super();
-        System.out.println("Running Soap  const");
-    }
-}
