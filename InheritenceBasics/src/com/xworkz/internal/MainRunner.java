@@ -15,8 +15,6 @@ public class MainRunner {
         education.staff();
         education.playground();
 
-        
-
        Education education6=new School();
         education6.uniform();
         education6.assembly();
